@@ -1,5 +1,6 @@
 ---
 # front matter tells Jekyll to process Liquid
+my_string_var = "*****"
 ---
 <!DOCTYPE html>
 <html>
@@ -9,5 +10,6 @@
   </head>
   <body>
     <h1>{{ "Mi página insuperable!" | downcase }}</h1>
+    Rate: {{ page.my_string_var }}
   </body>
 </html>
