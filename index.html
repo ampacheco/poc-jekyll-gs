@@ -1,3 +1,6 @@
+---
+# front matter tells Jekyll to process Liquid
+---
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,6 +8,6 @@
     <title>Contenido Insuperable Home Page</title>
   </head>
   <body>
-    <h1>Mi página Insuperable!</h1>
+    <h1>{{ "Mi página insuperable!" | downcase }}</h1>
   </body>
 </html>
